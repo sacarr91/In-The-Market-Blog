@@ -1,3 +1,7 @@
+// add form.css to head
+document.head.append(`<!-- form page CSS -->
+<link rel="stylesheet" href="./assets/css/form.css">`)
+
 let navEl = document.createElement('nav');
 let mainEl = document.createElement('main');
 
