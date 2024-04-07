@@ -1,15 +1,35 @@
 * {
     padding: 0.25rem;
     --color-1: #C24893;
-    font-family: 'Dancing Script', ;
+    font-family: 'Dancing Script', 'Amatic SC', 'Open Sans', sans-serif;
+}
+
+.navbar {
+    justify-content: end;
 }
 
 .btn {
     margin-right: 1rem;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: 700;
 }
 
-#site-header {
-    font-style: italic;
+label {
+    font-family: 'Amatic SC', sans-serif;
+}
+
+.form-control {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.form-control-sm {
+    font-size: small;
+    font-weight: 500;
+}
+.form-control-lg {
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 700;
 }
 
 /* https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow response #225, user: igaster */
@@ -22,4 +42,6 @@
     background-color: var(--color-1);
     border-color: var(--color-1);
     margin-top: 1rem;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: larger;
 }
