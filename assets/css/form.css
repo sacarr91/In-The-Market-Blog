@@ -6,9 +6,6 @@
     display: flex;
     justify-content: flex-start;
     max-height: 10%;
-    border: 2px;
-    border-color: cadetblue;
-    background-color: black;
 }
 
 #site-header {
