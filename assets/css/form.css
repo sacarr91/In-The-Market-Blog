@@ -4,8 +4,9 @@
     font-family: 'Dancing Script', 'Amatic SC', 'Open Sans', sans-serif;
 }
 
-.navbar {
-    justify-content: end;
+.navbar, 
+.navbar-brand {
+    padding: 0;
 }
 
 .btn {
@@ -14,10 +15,14 @@
     font-weight: 700;
 }
 
-label {
+label, p {
     font-family: 'Amatic SC', sans-serif;
+    font-size: large;
 }
 
+h2 {
+    margin-top: 5%;
+}
 .form-control {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
