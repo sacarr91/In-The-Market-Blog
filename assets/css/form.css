@@ -1,3 +1,8 @@
+#title {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: large;
+}
+
 label {
     font-family: 'Amatic SC', sans-serif;
     font-size: large;
@@ -10,7 +15,7 @@ label {
 
 .form-control-sm {
     font-size: small;
-    font-weight: 500;
+    font-weight: 100;
 }
 .form-control-lg {
     font-family: 'Dancing Script', sans-serif;
