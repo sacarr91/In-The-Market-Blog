@@ -20,19 +20,18 @@
         <!-- https://dev.to/themodernweb/fullstack-how-to-create-a-working-blogging-website-with-pure-html-css-and-js-in-2021-9di -->
         <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form -->
 
-    <body>
-            
-        <img src="./assets/in the market logo.png" alt="blog logo" height="100px">
-
-        <!-- Reference: https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works -->
+    <body>   
+        <!-- Reference: https://getbootstrap.com/docs/5.0/components/navbar/ -->
         <nav class="navbar bg-body-tertiary">
-            <form class="container-fluid justify-content-end">
-                <button class="btn btn-sm btn-outline-secondary" type="button">Homepage</button>
-                <button class="btn btn-sm btn-outline-secondary" type="button">Editor</button>
-            </ul>
+            <div class="container-fluid">
+                <img class="navbar-brand" src="./assets/in the market logo.png" alt="blog logo" height="100px">
+                <form class="d-flex">
+                    <button class="btn btn-sm btn-outline-secondary" type="button">Homepage</button>
+                    <button class="btn btn-sm btn-outline-secondary" type="button">Editor</button>
+                </form>
+            </div>
         </nav>
      
-        <h1 id="site-header">In the Market</h1>
         <main>
             <h2>New Blog Post</h2>
             <form id="new-post">
