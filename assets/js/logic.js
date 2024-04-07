@@ -8,4 +8,19 @@ document.head.append(`<link rel="preconnect" href="https://fonts.googleapis.com"
 <link rel="stylesheet" href="./assets/css/styles.css">`)
 
 /* bootstrap script */
-document.body.append(`<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>`)
+let bootstrapScript = document.createElement('script')
+bootstrapScript = `<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>`
+
+
+let navEl = document.createElement('nav');
+navEl = `<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+        <img class="navbar-brand" src="./assets/in the market logo.png" alt="blog logo" height=150px>
+        <form class="d-flex">
+            <button class="btn btn-outline-secondary" type="button">Write</button>
+            <button class="btn btn-outline-secondary" type="button">Read</button>
+        </form>
+    </div>
+</nav>`
+
+document.body.prepend(navEl)

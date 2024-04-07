@@ -1,8 +1,3 @@
-// add form.css to head
-document.head.append(`<!-- form page CSS -->
-<link rel="stylesheet" href="./assets/css/form.css">`)
-
-let navEl = document.createElement('nav');
 let mainEl = document.createElement('main');
 
 let blogEntries = []
@@ -15,17 +10,6 @@ function addToSeries() {
 // References: 
 // https://getbootstrap.com/docs/5.0/components/navbar/
 // https://developer.mozilla.org/en-US/docs/Web/API/Element/append
-
-navEl = `<nav class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-        <img class="navbar-brand" src="./assets/in the market logo.png" alt="blog logo" height=150px>
-        <form class="d-flex">
-            <button class="btn btn-outline-secondary" type="button">Write</button>
-            <button class="btn btn-outline-secondary" type="button">Read</button>
-        </form>
-    </div>
-</nav>`
-
 
 
 mainEl = 
@@ -58,4 +42,4 @@ mainEl =
 
 document.body.innerHTML = navEl+mainEl;
 
-document.getElementById(submit-button).addEventListener("click", addToSeries)
+document.getElementById(`submit-button`).addEventListener("click", addToSeries)
