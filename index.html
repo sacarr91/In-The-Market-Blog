@@ -25,12 +25,18 @@
 
     <body> 
         <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
+            <div class="container-fluid d-flex">
                 <img class="navbar-brand" src="./assets/in the market logo.png" alt="blog logo" height=150px>
-                <form class="d-flex">
+                <div class="col-med d-flex"><img src="./assets/sun.png" alt="light mode" height="20px" class="form-check-label" id="sun">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                </div>
+                <label class="form-check-label" for="flexSwitchCheckDefault"><img src="./assets/moon.png" alt="dark mode" height=20px id="moon"></label>
+                </div>
+                <div class="nav-buttons col-med">
                     <button class="btn btn-outline-secondary" type="button">Write</button>
                     <button class="btn btn-outline-secondary" type="button">Read</button>
-                </form>
+                </div>
             </div>
         </nav>
         <main>
