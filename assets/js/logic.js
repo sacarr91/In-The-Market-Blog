@@ -1,10 +1,12 @@
-let darkMode = (document.getElementById("flexSwitchCheckDefault").checked)
+const toggle = document.getElementById("flexSwitchCheckDefault")
 
 function changeColorMode() {
-    if (darkMode) {
-        document.getElementById("Stanley").outerHTML = '<html lang="en" id="Stanley" data-bs-theme="dark">';
+    if (toggle.checked) {
+        document.getElementById("Stanley").setAttribute("data-bs-theme", "dark");
     } else {
-        document.getElementById("Stanley").outerHTML = '<html lang="en" id="Stanley">';
+        document.getElementById("Stanley").removeAttribute("data-bs-theme", "dark");
     }
 }
+
 document.getElementById("flexSwitchCheckDefault").addEventListener("click", changeColorMode)
+
