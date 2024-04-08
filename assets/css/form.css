@@ -22,7 +22,7 @@ label {
     font-weight: 700;
 }
 
-/* https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow response #225, user: igaster */
+
 .form-control:focus {
     border-color: var(--color-1);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px var(--color-1);

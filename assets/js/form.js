@@ -7,11 +7,6 @@ function addToSeries() {
     console.log(`Updated array: ${blogEntries}`)
 }
 
-// References: 
-// https://getbootstrap.com/docs/5.0/components/navbar/
-// https://developer.mozilla.org/en-US/docs/Web/API/Element/append
-
-
 mainEl = 
 `<main>
     <h1>Welcome to The Market!</h1>
