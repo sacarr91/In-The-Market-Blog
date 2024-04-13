@@ -9,4 +9,3 @@ function changeColorMode() {
 }
 
 document.getElementById("flexSwitchCheckDefault").addEventListener("click", changeColorMode)
-
