@@ -1,6 +1,6 @@
-//pull data from local storage
-//display in cards
-//  with author name, title, post
+// written with guidance from Sandy & Medium article
+// https://shadowcoder.medium.com/dynamic-card-rendering-in-javascript-unleashing-the-power-of-flexibility-72e55130b091
+
 const cardContainer = document.getElementById('card-container');
 const allEntries = JSON.parse(localStorage.getItem('blogEntries')) || [];
 
@@ -37,18 +37,3 @@ for (let i = 0; i < allEntries.length; i++) {
     const blogContent = allEntries[i].postContent;
     newPostCard(blogTitle, blogAuthor, blogContent);
 }
-
-//declare variables from html
-
-
-
-//iterate through array, call function to display/append entry card
-
-//create postcard function
-
-
-// // const card1 = createCard('Dynamic Cards 101', 'Learn how to spice up your web page with dynamic card rendering!');
-// // const card2 = createCard('The Power of Flexibility', 'Discover the endless possibilities of dynamic content.');
-
-// cardContainer.appendChild(card1);
-// cardContainer.appendChild(card2);
