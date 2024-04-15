@@ -1,5 +1,11 @@
 @import url(./styles.css);
 
+#back-btn {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bolder;
+}
+
 /* CSS styling  below from https://devdevout.com/css/css-cards with minor alterations to fit "In the Market" blog style*/
 body .container {
   display: flex;
