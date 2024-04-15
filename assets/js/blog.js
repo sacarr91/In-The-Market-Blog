@@ -14,7 +14,7 @@ function newPostCard(x, y, z) {
     const fancyCard = document.createElement('div');
     fancyCard.setAttribute('class', 'card')
     const fancyBox = document.createElement('div');
-    fancyBox.setAttribute('class', 'light-box')
+    fancyBox.setAttribute('class', 'fancy-box');
     const postCard = document.createElement('div');
     postCard.setAttribute('class', 'display-card');
 
@@ -50,3 +50,5 @@ for (let i = 0; i < allEntries.length; i++) {
     //call function to render cards
     newPostCard(blogTitle, blogAuthor, blogContent);
 }
+
+changeColorMode();

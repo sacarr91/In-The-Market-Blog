@@ -22,7 +22,7 @@ body .container .card {
   transition: 0.5s;
 }
 
-body .container .card .light-box {
+body .container .card .fancy-box.light-box {
   position: absolute;
   top: 20px;
   left: 20px;
@@ -38,7 +38,7 @@ body .container .card .light-box {
   z-index: 1;
 }
 
-body .container .card .light-box:before {
+body .container .card .fancy-box.light-box:before {
   content: "";
   position: absolute;
   top: 0;
@@ -49,34 +49,34 @@ body .container .card .light-box:before {
   z-index: 2;
 }
 
-body .container .card .light-box .display-card {
+body .container .card .fancy-box.light-box .display-card {
   padding: 20px;
   text-align: center;
   z-index: 3;
 }
 
-body .container .card .light-box .display-card h2 {
+body .container .card .fancy-box.light-box .display-card h2 {
     font-size: 2.25rem;
     font-weight: 500;
     z-index: 1;
     transition: 0.5s;
 }
 
-body .container .card .light-box .display-card h3 {
+body .container .card .fancy-box.light-box .display-card h3 {
   font-size: 1rem;
   z-index: 1;
   transition: 0.5s;
   margin-bottom: 15px;
 }
 
-body .container .card .light-box .display-card p {
+body .container .card .fancy-box.light-box .display-card p {
   font-size: 1rem;
   font-weight: 300;
   z-index: 1;
   transition: 0.5s;
 }
 
-body .container .card .dark-box {
+body .container .card .fancy-box.dark-box {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -92,7 +92,7 @@ body .container .card .dark-box {
     z-index: 1;
   }
   
-  body .container .card .dark-box:before {
+  body .container .card .fancy-box.dark-box:before {
     content: "";
     position: absolute;
     top: 0;
@@ -103,13 +103,13 @@ body .container .card .dark-box {
     z-index: 2;  
 }
   
-  body .container .card .dark-box .display-card {
+  body .container .card .fancy-box.dark-box .display-card {
     padding: 20px;
     text-align: center;
     z-index: 3;
 }
   
-  body .container .card .dark-box .display-card h2 {
+  body .container .card .fancy-box.dark-box .display-card h2 {
       font-size: 2.25rem;
       font-weight: 500;
       color: var(--color-1);
@@ -117,7 +117,7 @@ body .container .card .dark-box {
       transition: 0.5s;
   }
   
-  body .container .card .dark-box .display-card h3 {
+  body .container .card .fancy-box.dark-box .display-card h3 {
     font-size: 1rem;
     color: #fff;
     z-index: 1;
@@ -125,7 +125,7 @@ body .container .card .dark-box {
     margin-bottom: 15px;
   }
   
-  body .container .card .dark-box .display-card p {
+  body .container .card .fancy-box.dark-box .display-card p {
     font-size: 1rem;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.9);
